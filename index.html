@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elias's CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-wrapper">
+        <div id="my-picture">
+          <img src="Images/Selfie.png" alt="An image about me" height="140px" />
+        </div>
+        <div id="header-info">
+          <h1>Gavriloie Elias</h1>
+          <h2 id="job-title">
+            Student at
+            <a id="school-link" href="http://e-racovita.ro"
+              >Colegiul National "Emil Racovita" Cluj-Napoca</a
+            >
+          </h2>
+        </div>
+      </div>
+
+      <ul id="top-menu-bar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Languages</a></li>
+      </ul>
+    </header>
+    <section id="content">
+      <div id="side-menu">
+        <section>
+          <h2>Contact form</h2>
+          <form
+            action="/Users/elias/Documents/My HTML CV/Images/Selfie.jpeg"
+            method="get"
+          >
+            <label for="contact-email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="contact-email"
+              required
+              placeholder="myemail@mailprovider.com"
+            />
+            <br />
+            <label for="contact-name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="contact-name"
+              required
+              placeholder="Joe Jackson"
+            />
+            <br />
+            <label for="contact-reason">Reason</label>
+            <input
+              type="text"
+              name="Reason"
+              id="contact-reason"
+              required
+              placeholder="Reason for contacting me"
+            />
+            <br />
+            <button type="submit">Contact Us</button>
+          </form>
+        </section>
+        <section>
+          <h2>Rubik's Face</h2>
+          <div class="rubik-face">
+            <div style="background: #0082df"></div>
+            <div style="background: #ffff00"></div>
+            <div style="background: #ff2c0a"></div>
+            <div style="background: #0082df"></div>
+            <div style="background: #ffff00"></div>
+            <div style="background: #ff2c0a"></div>
+            <div style="background: #0082df"></div>
+            <div style="background: #ffff00"></div>
+            <div style="background: #ff2c0a"></div>
+          </div>
+        </section>
+      </div>
+      <div id="main">
+        <div class="page" id="home">
+          <h2>Home</h2>
+
+          <p>Hello, <strong>welcome </strong>to my site</p>
+          <p>
+            This page is about me. I am a student at Colegiul National "Emil
+            Racovita" in Romania, Cluj-Napoca and I like programming, computers,
+            english and math
+          </p>
+        </div>
+        <div class="page" id="skills">
+          <h2>Skills & Endorcements</h2>
+          <ul>
+            <li class="favorite">HTML - 1</li>
+            <li class="favorite">CSS - 0</li>
+            <li>Javascript - 0</li>
+            <li class="favorite">Python - 5</li>
+          </ul>
+        </div>
+        <div class="page" id="projects">
+          <h2>Projects</h2>
+          <p>This are the projects I've been working on...</p>
+        </div>
+
+        <div class="page" id="languages">
+          <h2>Known languages</h2>
+          <table border="1">
+            <tr>
+              <th>Language</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>Romanian</td>
+              <td>Native</td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Proffesional</td>
+            </tr>
+            <tr>
+              <td>German</td>
+              <td>Beginner</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <a
+        href="https://github.com/Gavriloie-Elias"
+        style="padding: 3px; color: white"
+        ><img
+          src="Images/github.png
+        "
+          alt="Github"
+          width="32"
+          style="background-color: transparent"
+      /></a>
+    </footer>
+  </body>
+
+  <script src="index.js"></script>
+</html>

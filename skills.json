@@ -2,6 +2,6 @@
   { "name": "HTML", "endorcements": 3, "favorite": true },
   { "name": "CSS", "endorcements": 1 },
   { "name": "JavaScript", "endorcements": 6, "favorite": true },
-  { "name": "Python", "endorcements": 5 },
+  { "name": "Python", "endorcements": 0 },
   { "name": "Git", "endorcements": 1 }
 ]
